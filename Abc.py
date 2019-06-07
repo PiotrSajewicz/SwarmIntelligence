@@ -32,6 +32,7 @@ class Abc:
         return sol, self.fitnesse(sol)
 
     def fitnesse(self,sol):
+
         res = self.func(sol)
         return res
 
